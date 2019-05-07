@@ -1,203 +1,226 @@
-h1 {
-    font-family: 'Sofia', cursive;
-    font-weight: bold;
-    font-size: 3em;
-    text-shadow: 3px 2px red;
-}
-
-.a {
-    margin: 20px;
-    color: blue;
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: 3em;
-}
-
-.dress {
-    height: 400px;
-    width: 1000px;
-}
-
-.dress:hover {
-    cursor: pointer;
-}
-
-body {
-    background-color: #43cfd63b;
-}
-
-
-/* table {
-    border: 1px solid grey;
-    height: 600px;
-    width: 150px;
-    text-align: center;
-}
-
-th {
-    text-decoration: underline;
-    font-size: 2em;
-    text-shadow: 2px 2px yellowgreen;
-} */
-
-.inp {
-    padding: 10px;
-    margin: 5px;
-    border: none;
-    background-color: white;
-    width: 300px;
-    text-align: center;
-}
-
-.style {
-    border: none;
-    height: 500px;
-    width: 250px;
-    background-color: lightgrey;
-    padding: 3px;
-    margin: 3px;
-}
-
-.style:hover {
-    border-radius: 10px;
-    background-color: rgb(197, 192, 192);
-    margin: 20px;
-    cursor: pointer;
-}
-
-.cloth {
-    width: 250px;
-    height: 350px;
-}
-
-p {
-    text-align: center;
-    font-family: 'Sofia', cursive;
-    font-weight: bold;
-}
-
-button {
-    width: 100px;
-    padding: 7px;
-    margin: 10px;
-    font-weight: bold;
-}
-
-.btn-1 {
-    background-color: red;
-    color: black;
-    border: none;
-}
-
-.btn-2 {
-    background-color: black;
-    color: white;
-    border: none;
-}
-
-.btn-1:hover {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-}
-
-.btn-2:hover {
-    background-color: red;
-    color: black;
-    cursor: pointer;
-}
-
-.dis {
-    display: inline-block;
-    margin: 10px;
-    padding: 15px;
-}
-
-.ftr {
-    border: none;
-    height: 200px;
-    width: 400px;
-    background-color: #3d8b872e;
-    padding: 10px;
-    display: inline-block;
-    margin: 10px;
-}
-
-h4 {
-    text-align: center;
-    font-weight: bold;
-}
-
-.btn {
-    background-color: brown;
-    font-weight: bold;
-    border: none;
-    width: 300px;
-}
-
-.btn:hover {
-    background-color: red;
-    color: black;
-    cursor: pointer;
-}
-
-.app:hover {
-    cursor: pointer;
-    margin: 3px;
-}
-
-.btn-fb {
-    border-radius: 10px;
-    font-size: 20px;
-    width: 30px;
-    padding: 3px;
-    color: white;
-    background-color: grey;
-}
-
-.btn-fb:hover {
-    color: black;
-    background-color: purple;
-    cursor: pointer;
-}
-
-.btn-tw {
-    border-radius: 100%;
-    font-size: 20px;
-    width: 30px;
-    padding: 3px;
-    color: white;
-    background-color: grey;
-}
-
-.btn-tw:hover {
-    color: white;
-    background-color: skyblue;
-    cursor: pointer;
-}
-
-.btn-0 {
-    margin-left: none;
-    padding-left: 10px;
-    background-color: brown;
-    color: white;
-    font-weight: bolder;
-}
-
-.btn-0:hover {
-    cursor: pointer;
-    background-color: red;
-}
-
-.inp-0 {
-    margin-right: none;
-    padding-right: 10px;
-    width: 300px;
-    height: 25px;
-    text-align: center;
-}
-
-footer {
-    background-color: lightgrey;
-    padding: 10px;
-}
+    h1 {
+        font-family: 'Sofia', cursive;
+        font-weight: bold;
+        font-size: 3em;
+        text-shadow: 3px 2px red;
+        margin: 1px;
+        text-align: center;
+    }
+    
+    #h1 {
+        background-color: rgb(166, 191, 216);
+        padding-inline-start: none;
+        height: 90px;
+        border-radius: 10px;
+        border: 2px solid rgb(166, 191, 216);
+    }
+    
+    nav {
+        border: 1px solid grey;
+        background-color: lightgrey;
+        color: whitesmoke;
+        font-weight: bold;
+        background-image: linear-gradient(to top, black, lightgrey);
+    }
+    
+    .a {
+        margin: 20px;
+        font-weight: bold;
+        color: white;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    
+    .a:hover {
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+        background-color: black;
+    }
+    
+    .dress {
+        height: 400px;
+        width: 999px;
+    }
+    
+    .dress:hover {
+        cursor: pointer;
+    }
+    
+    body {
+        width: 99%;
+    }
+    
+    .head {
+        background-color: #43cfd63b;
+    }
+    
+    .inp {
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        background-color: white;
+        width: 300px;
+        text-align: center;
+    }
+    
+    .style {
+        border: none;
+        height: 500px;
+        width: 300px;
+        background-color: lightgrey;
+        padding: 3px;
+        margin: 20px;
+    }
+    
+    .style:hover {
+        border-radius: 10px;
+        background-color: rgb(197, 192, 192);
+        margin: 40px;
+        cursor: pointer;
+    }
+    
+    .cloth {
+        width: 300px;
+        height: 350px;
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+        font-family: 'Sofia', cursive;
+        font-weight: bold;
+    }
+    
+    button {
+        width: 105px;
+        padding: 7px;
+        margin: 2px;
+        font-weight: bold;
+    }
+    
+    .btn-1 {
+        background-color: red;
+        color: black;
+        border: none;
+        margin-right: 25px;
+        margin-left: 18px;
+    }
+    
+    .btn-2 {
+        background-color: black;
+        color: white;
+        border: none;
+        margin-right: 25px;
+        margin-left: 18px;
+    }
+    
+    .btn-1:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .btn-2:hover {
+        background-color: red;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .dis {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .ftr {
+        border: none;
+        height: 200px;
+        width: 400px;
+        background-color: #3d8b872e;
+        padding: 10px;
+        display: inline-block;
+        margin: 10px 35px;
+        text-align: center;
+    }
+    
+    h4 {
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    .btn {
+        background-color: brown;
+        font-weight: bold;
+        border: none;
+        width: 300px;
+    }
+    
+    .btn:hover {
+        background-color: red;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .app:hover {
+        cursor: pointer;
+        margin: 3px;
+    }
+    
+    .btn-fb {
+        border-radius: 10px;
+        font-size: 20px;
+        width: 30px;
+        padding: 3px;
+        color: white;
+        background-color: grey;
+    }
+    
+    .btn-fb:hover {
+        color: black;
+        background-color: purple;
+        cursor: pointer;
+    }
+    
+    .btn-tw {
+        border-radius: 100%;
+        font-size: 20px;
+        width: 30px;
+        padding: 3px;
+        color: white;
+        background-color: grey;
+    }
+    
+    .btn-tw:hover {
+        color: white;
+        background-color: skyblue;
+        cursor: pointer;
+    }
+    
+    .btn-0 {
+        padding-left: 10px;
+        background-color: brown;
+        color: white;
+        font-weight: bolder;
+    }
+    
+    .btn-0:hover {
+        cursor: pointer;
+        background-color: red;
+    }
+    
+    .inp-0 {
+        margin: 5px;
+        margin-left: 160px;
+        padding-right: 10px;
+        width: 300px;
+        height: 25px;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: lightgrey;
+        padding: 10px;
+    }
