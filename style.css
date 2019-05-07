@@ -40,7 +40,7 @@
     
     .dress {
         height: 400px;
-        width: 999px;
+        width: 100%;
     }
     
     .dress:hover {
@@ -48,7 +48,7 @@
     }
     
     body {
-        width: 99%;
+        width: 100%;
     }
     
     .head {
